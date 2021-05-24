@@ -1,0 +1,42 @@
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css");
+
+.code {
+    display: grid;
+    grid-template: column;
+    color:#fff;
+    height:400px;
+    font-size: 13px;
+    font-family: 'Times New Roman', Times, serif;
+    background-image: url('../images/code.jpg');
+    background-size: stretch;
+    background-repeat: no-repeat;
+
+}
+
+img {
+    margin-top: 20px;
+    width:100px;
+    border:1px solid goldenrod#
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+}
+
+.content{
+    display: flex;
+    align-items:center;
+    top: 4px;
+    flex-direction: column;
+    font-size: 17px;
+}
+
+#return {
+    background-color: #34ffdd;
+    align-items: center;
+}
+
+#myheading{
+    background-color: #235876;
+}
