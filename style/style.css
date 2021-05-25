@@ -8,7 +8,7 @@
     font-family: 'Times New Roman', Times, serif;
     background-image: url('../images/glass.jpg');
     background-size: 100%;
-    height:450px;
+    height:90%;
     background-repeat: no-repeat;
     border: 1px solid gray;
     padding:20px 10px;
@@ -19,12 +19,12 @@
 .container-2 {
     color:rgb(22, 34, 139);
     display:grid;
-    grid-template-rows: 10% 90%;
+    grid-template-rows: 20% 80%;
     font-size: 13px;
     font-family: 'Times New Roman', Times, serif;
     margin: 20px 1px;
     background-color: aqua;
-    justify-content: center;
+    height: 90%;
     border: 1px solid#974;
     border-radius:5px;
 }
@@ -33,8 +33,7 @@
     padding: 20px 50px;
     display: grid;
     grid-template: column;
-    grid-template-columns: 400px 200px 50px;
-    -ms-grid-column-align: end;
+    grid-template-columns: 30% 40% 30%;
     text-decoration: none;
     background-color:rgb(116, 68, 101);
     color:white;
@@ -51,26 +50,24 @@
     justify-content: center;
 
 }
-@media  (max-width:500px) {
+
+@media only screen and (min-width:500px) {
   /* smartphones : */
-  .images {
-    display: grid;
-    grid-template-rows: 40% 30% 30%;
+  .images  {
+    margin-top: 25px;
+    display: flex;
+    flex-direction: row;
+  
   
   }
-  #code{
-    width:40%;
-    height: 10px;
-  }
-  #glass{
-    width: 40%;
-    height: 10px;
+
+
+  .image-cont img {
+    width: 100%;
+    height:20%
 
   }
-  #mac{
-    width: 40%;
-    height: 10px;
-  }
+  
   .navbar{
     display: flex;
     flex-direction:row;
@@ -78,12 +75,11 @@
   }
 }
 
-@media (min-width:501px) and (max-width:900px) {
+@media only screen and (min-width:900px) {
     /* mid screens: */
    
     .images {
-      display: grid;
-      grid-template-rows: 40% 30% 30%;
+      display: flex;
     
     }
 
@@ -94,6 +90,6 @@
      img {
       display:flex;
       flex-direction: column;
-      width: 80%;
+    
     }
 }

@@ -1,20 +1,17 @@
 .images{
     margin-top: 25px;
+    height: 50%;
     display: grid;
-    grid-template-columns: 30% 30% 40%;
+    grid-template-columns: 30% 40% 30%;
 
 }
-#mac {
-    height: 500px;
-    width: 300px;
-}
 
-#glass {
-    height: 500px;
-    width: 300px;
+.image-cont{
+    width: 100%;
+    height: 30%;
 }
-
-#code {
-    height: 500px;
-    width: 300px;
+.image-cont img{
+    border-radius: 4px;
+    width: 100%;
+    height: 28%;
 }
